@@ -1,0 +1,26 @@
+{
+  "root": true,
+  "env": {
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "rules": {
+    "no-console": 1,
+    "no-debugger": "warn",
+    "no-unused-vars": "warn",
+    "template-curly-spacing": [
+      "warn",
+      "always"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "comma-dangle": [
+      "error",
+      "never"
+    ]
+  }
+}

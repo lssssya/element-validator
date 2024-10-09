@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "react",
+    "importHelpers": false,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "types": [
+      "node",
+      "jest",
+      "react"
+    ],
+    "lib": [
+      "esnext",
+      "dom",
+    ]
+  },
+  "paths": {
+    "@/*": [
+      "./src/*"
+    ],
+    "tslib": []
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "test/**/*.ts",
+    "test/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "script"
+  ]
+}
