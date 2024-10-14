@@ -1,5 +1,5 @@
 {
-  "name": "hz-validator",
+  "name": "element-validator",
   "version": "1.0.5",
   "description": "utils",
   "main": "lib/index.ts",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://iris.hikvision.com.cn/huazhong/hz-validator.git"
+    "url": "http://iris.hikvision.com.cn/huazhong/element-validator.git"
   },
   "keywords": [
     "validator"

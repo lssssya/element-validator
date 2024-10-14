@@ -1,21 +1,17 @@
-## 📢 hz-validator
-华中表单校验规范 module 库
+## 📢 element-validator
+表单校验规范 module 库
 
 ### ✨ 快速开始
 
-http://iris.hikvision.com.cn/huazhong/hz-validator
-
 #### ⚡ 安装
 ```bash
-# 切换到公司仓库源
-$ npm config set registry http://af.hikvision.com.cn/artifactory/api/npm/npm-down/
-$ npm i hz-validator
+$ npm i element-validator
 ```
 
 #### 🏆 使用
 
 ```js
-import { validator } from 'hz-validator'
+import { validator } from 'element-validator'
 
 const rules = {
   placeName: [
@@ -38,7 +34,7 @@ const rules = {
 ```
 
 ### 🔨 API
-hz-validator 提供两个模块
+element-validator 提供两个模块
 
 * Validator
     *  pleaseInput
@@ -61,13 +57,12 @@ hz-validator 提供两个模块
 
 ### ⏰ 待办
 
-- [ ] npm打包场景测试
-- [ ] 或（or）场景的条件校验
-- [ ] module 用 rollup 打包问题
-- [ ] 打包成js
-- [ ] 输出一份声明文件
-- [ ] 单元测试编写（test）
-- [ ] 补充hui-pro本身拥有的正则表达式
-- [ ] ...
+- [x] npm打包场景测试
+- [x] 或（or）场景的条件校验
+- [x] module 用 rollup 打包问题
+- [x] 打包成js
+- [x] 输出一份声明文件
+- [x] 单元测试编写（test）
+- [ ] 单元vue测试编写
 
 ### 🚀 更新日志
